@@ -1,0 +1,1 @@
+export LEO_JQUANT_SDK_ROOT_PATH=$(pwd)
