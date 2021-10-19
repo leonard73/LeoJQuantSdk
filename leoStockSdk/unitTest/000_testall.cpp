@@ -97,6 +97,8 @@ int  main(void)  {
     stock_sdk_space::stock_sdk stock_sdk_obj = stock_sdk_space::stock_sdk("13918934560","Panjiaqi7395");
     stock_sdk_obj.get_stock_data();
     stock_sdk_obj.get_price_data();
-    stock_sdk_obj.log_stock_info();
+    // stock_sdk_obj.log_stock_info_by_codeNB(600104);
+    stock_sdk_obj.find_strong10days_week3days(0.10,-0.05);
+    // stock_sdk_obj.get_priceInfo_10Days(600104);
     // request()  ;
 }
