@@ -342,4 +342,5 @@ void stock_sdk::find_strong10days_week3days(float rate10,float rate3)
             // LOGLINE_STR_INT("NOT FIND! : ",this->stock_array.at(i).stock_code);
         }
     }
+    LOGLINE_STR_INT("find stock finished ",0);
 }
